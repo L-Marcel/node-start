@@ -1,2 +1,3 @@
 import app from ".";
-app.listen(3333);
+import { getInfo } from "./utils/info";
+app.listen(3333, () => getInfo("🚀 Server is running!"));
