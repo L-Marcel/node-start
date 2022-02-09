@@ -5,7 +5,7 @@
   "license": "MIT",
   "types": "src/@types",
   "scripts": {
-    "dev": "set NODE_ENV=dev && ts-node-dev src/main.ts --transpile-only --exit-child --ignore-watch"
+    "dev": "set NODE_ENV=dev && ts-node-dev src/main.ts --transpile-only --exit-child --respawn --ignore-watch node_modules"
   },
   "dependencies": {
     "cors": "^2.8.5",
